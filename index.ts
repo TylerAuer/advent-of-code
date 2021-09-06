@@ -1,7 +1,7 @@
 import { solve1A, solve1B } from './1';
 import { solve2A, solve2B } from './2';
 import { solve3A, solve3B } from './3';
-
+import { solve4A, solve4B } from './4';
 import { solve5A, solve5B } from './5';
 import { log } from './utils/log';
 
@@ -29,6 +29,12 @@ import { log } from './utils/log';
   log.green(`Solution 3B: ${solution3B}`);
 
   console.log(' ');
+
+  const solution4A = solve4A();
+  log.red(`Solution 4A: ${solution4A}`);
+
+  const solution4B = solve4B();
+  log.red(`Solution 4B: ${solution4B}`);
 
   console.log(' ');
 
