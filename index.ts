@@ -3,6 +3,7 @@ import { solve2A, solve2B } from './2';
 import { solve3A, solve3B } from './3';
 import { solve4A, solve4B } from './4';
 import { solve5A, solve5B } from './5';
+import { solve6A, solve6B } from './6';
 import { log } from './utils/log';
 
 (() => {
@@ -43,4 +44,12 @@ import { log } from './utils/log';
 
   const solution5B = solve5B();
   log.green(`Solution 5B: ${solution5B}`);
+
+  console.log(' ');
+
+  const solution6A = solve6A();
+  log.red(`Solution 6A: ${solution6A}`);
+
+  const solution6B = solve6B();
+  log.red(`Solution 6B: ${solution6B}`);
 })();
